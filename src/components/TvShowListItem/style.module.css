@@ -1,0 +1,22 @@
+.container {
+    cursor: pointer; /*changes the mouse cursor to a pointer (to show clickableness)*/
+    position: relative;
+}
+
+
+.title {
+    position: absolute; /*Absolute, so that title can float above the image*/
+    margin-top: -40px;
+    height: 40px;
+    width: 300px;
+    padding-left: 20px;
+    padding-top: 8px;
+    background-color: rgba(0,0,0,0.8); /*0.8 opacity*/
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.img {
+
+    border-radius: 10px;    
+}

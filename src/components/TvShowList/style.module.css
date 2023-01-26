@@ -1,0 +1,20 @@
+.title {
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.list:hover {
+    overflow: overlay; /* make it so we can scroll (horizontally) if theres overflow */
+}
+
+.list {
+    display: flex;
+    width: 100vw - 25px; /* 100vw is the size of the screen*/
+    overflow-x: hidden; /* hide any overflow in the x-direction*/
+    padding-bottom: 30px; /* to add some space above the scrollbar */
+}
+
+.tv_show_item {
+    margin-right: 20px;
+}

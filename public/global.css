@@ -1,0 +1,16 @@
+body {
+    color: white;
+    /* font-family: Maximum Impact; */
+    font-family: 'Roboto', sans-serif;
+}
+
+/* for when scrollbar is NOT moving */
+::-webkit-scrollbar{
+    background: transparent; /* hide it */
+}
+
+/* for when (horizontal) scrollbar is moving*/
+::-webkit-scrollbar-thumb:horizontal {
+    background: rgba(0, 0, 0, 0.61); /* black, 61% opacity*/
+    border-radius: 10px;
+}
