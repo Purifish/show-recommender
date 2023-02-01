@@ -79,7 +79,7 @@ function App() {
                 <div className="row"> 
                     {/*Bootstrap rows and columns*/}
                     <div className="col-4">
-                        <Logo img={logoImg} title="Watowatch" subtitle="Find a show suited for you!"/>
+                        <Logo img={logoImg} title="BingeBuddy" subtitle="Find a show suited for you!"/>
                     </div>
                     <div className="col-md-12 col-lg-4">
                         <SearchBar onSubmit={fetchByTitle}/>
