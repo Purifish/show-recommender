@@ -43,6 +43,8 @@ function App() {
             const searchResult = await TvShowApi.fetchByTitle(title);
             if (searchResult.length > 0) {
                 setCurTvShow(searchResult[0]);
+            } else {
+                console.log("Problem detected when fetching search result");
             }
         } catch (err) {
             console.log("Error fetching search result");
@@ -62,9 +64,6 @@ function App() {
             fetchRecommendations(curTvShow.id);
         }
     }, [curTvShow]);
-
-    console.log(curTvShow);
-    console.log(recommendationList);
 
     return (
         <div 
